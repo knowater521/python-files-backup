@@ -103,7 +103,7 @@ if __name__ == "__main__":
         x2 = 7
         y2 = -(b + w[0] * x2) / w[1]
         line.set_data([x1, x2], [y1, y2])
-        x1 = 0
+        x1 = 
         y1 = -(b + w[0] * x1) / w[1]
         # label.set_text(i)
         label.set_text(history[i])
