@@ -101,6 +101,9 @@ Epoch 99 loss : 0.092954
 Epoch 100 loss : 0.092954
 The loss min is :0.002401,in Epoch 29th
 Time:272.064000 seconds
+
+
+Adam
 Epoch 1 loss : 0.058822
 Epoch 2 loss : 0.092953
 Epoch 3 loss : 0.003344
