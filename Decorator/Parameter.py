@@ -39,5 +39,16 @@ def variable_parameter():
     print(calc(*(1,2,3)))
 
 
+# 关键字参数在函数内部自动组装成一个dict，且可以传入任意个参数
+def person(name,age,**kw):
+    print('name:',name,'age:',age,'other:',kw)
+
+
+@dec
+def keywords_parameter():
+    person('pfwu',25,grade=1) # name: pfwu age: 25 other: {'grade': 1} 最后一个参数是dict
+    person('pfwu',25,grade=1,lab='513') # name: pfwu age: 25 other: {'grade': 1, 'lab': '513'}
+
 if __name__ == '__main__':
     variable_parameter()
+    keywords_parameter()
