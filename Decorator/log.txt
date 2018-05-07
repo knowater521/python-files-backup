@@ -1,0 +1,12 @@
+E:/python files/Decorator/01_WithoutPara.py 11 - 2018-05-07 09:44:00,930 - root - WARNING - bar is running
+E:/python files/Decorator/01_WithoutPara.py 12 - 2018-05-07 09:44:00,957 - root - DEBUG - This is debug information
+E:/python files/Decorator/01_WithoutPara.py 11 - 2018-05-07 09:44:00,957 - root - WARNING - foo is running
+E:/python files/Decorator/01_WithoutPara.py 12 - 2018-05-07 09:44:00,957 - root - DEBUG - This is debug information
+E:/python files/Decorator/01_WithoutPara.py - 11 - 2018-05-07 10:18:00,961 - root - WARNING - bar is running
+E:/python files/Decorator/01_WithoutPara.py - 12 - 2018-05-07 10:18:01,037 - root - DEBUG - This is debug information
+E:/python files/Decorator/01_WithoutPara.py - 11 - 2018-05-07 10:18:01,037 - root - WARNING - foo is running
+E:/python files/Decorator/01_WithoutPara.py - 12 - 2018-05-07 10:18:01,037 - root - DEBUG - This is debug information
+E:/python files/Decorator/01_WithoutPara.py - 11 - 2018-05-07 10:18:55,467 - root - WARNING - bar is running
+E:/python files/Decorator/01_WithoutPara.py - 12 - 2018-05-07 10:18:55,468 - root - DEBUG - This is debug information
+E:/python files/Decorator/01_WithoutPara.py - 11 - 2018-05-07 10:18:55,468 - root - WARNING - foo is running
+E:/python files/Decorator/01_WithoutPara.py - 12 - 2018-05-07 10:18:55,468 - root - DEBUG - This is debug information

@@ -101,6 +101,7 @@ init = tf.global_variables_initializer()
 sess.run(init)
 writer = tf.summary.FileWriter('logs',sess.graph)
 
+
 for i in range(1000):
     batch_xs, batch_ys = mnist.train.next_batch(100)
     sess.run(train_step, feed_dict={xs: batch_xs, ys: batch_ys, keep_prob: 0.5})

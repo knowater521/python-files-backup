@@ -1,0 +1,2 @@
+E:/python files/Decorator/02_WithPara.py - 23 - 2018-05-07 09:50:56,630 - root - WARNING - wrapper is running
+E:/python files/Decorator/02_WithPara.py - 24 - 2018-05-07 09:50:56,630 - root - DEBUG - This is debug information
