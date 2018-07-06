@@ -45,7 +45,7 @@ biases = {
 
 def RNN(X,weights,biases):
     # hidden layer for inputs to cell
-    # X (128 batchs,28 steps,28 inputs) steps:实际上是行
+    # X (128 batchs,28 steps,28 inputs) steps:实际上是行，就是时间点
     # ==> (128*28,28 inputs)
     X = tf.reshape(X,[-1,n_inputs])
     X_in = tf.matmul(X,weights['in'] + biases['in'])
@@ -76,6 +76,7 @@ with tf.Session() as sess:
     sess.run(init)
     step = 0
     while step*batch_size<training_iters:
+        step = step + 1
         batch_xs,batch_ys = mnist.train.next_batch(batch_size)
         batch_xs = batch_xs.reshape([batch_size,n_steps,n_inputs])
         sess.run([train_op],feed_dict={

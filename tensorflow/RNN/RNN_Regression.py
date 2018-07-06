@@ -148,10 +148,13 @@ if __name__ == '__main__':
 
         # plotting
         plt.plot(xs[0, :], res[0,:], 'r', xs[0, :], pred.flatten()[:TIME_STEPS], 'b--')
+        # plt.plot(xs[0, :], res[0,:], 'r', label='true')
+        # plt.plot(xs[0, :], pred.flatten()[:TIME_STEPS], 'b--',label='pred')
+        # plt.legend(loc=0)
         plt.ylim((-1.2, 1.2))
         plt.draw()
         plt.pause(0.3)
-
+        plt.show()
         if i % 20 == 0:
             print('cost: ', round(cost, 4))
             result = sess.run(merged, feed_dict)

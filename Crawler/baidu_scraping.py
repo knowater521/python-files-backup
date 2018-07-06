@@ -15,6 +15,7 @@ import random
 
 base_url = "https://baike.baidu.com"
 his = ["/item/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/5162711"]
+# print(his[-1])
 url = base_url + his[-1]   # his[-1] the last in his
 html = urlopen(url).read().decode('utf-8')
 soup = BeautifulSoup(html, features='lxml')
